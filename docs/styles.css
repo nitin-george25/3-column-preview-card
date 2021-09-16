@@ -120,7 +120,7 @@ body * {
     color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 475px) {
+@media only screen and (max-width: 475px) {
     * {
         scrollbar-width: none;
     }
